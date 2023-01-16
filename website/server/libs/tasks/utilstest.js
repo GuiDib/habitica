@@ -1,6 +1,6 @@
 import  utils from '../../../../website/server/libs/tasks/utils'
 
-descbribe('utils tasks testing', ()=> {
+describe('utils tasks testing', ()=> {
     let task, user, dueDateOption;
     it ('setTaskType is not daily',()=> {
         task.type !== daily
